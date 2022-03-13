@@ -1,0 +1,16 @@
+.container{
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.highright-wrapper h1{
+    font-size: 4em;
+}
