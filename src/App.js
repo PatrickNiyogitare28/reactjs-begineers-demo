@@ -5,7 +5,8 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import LoginPage from './views';
+import LoginPage from './views/login';
+import CounterPage from './views/counter';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<LoginPage />} />
+        <Route path='/counter' element={<CounterPage />} />
       </Routes>
     </Router>
   );

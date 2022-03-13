@@ -1,0 +1,13 @@
+.counter-button button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-width: 0px;
+    width: 200px;
+    margin-left: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button button:hover{
+    transform: scale(1.01);
+}
